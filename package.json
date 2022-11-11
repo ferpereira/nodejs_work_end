@@ -1,0 +1,39 @@
+{
+  "name": "nodejs_work_end_github",
+  "version": "1.0.0",
+  "description": "Trabalho de conclusão da disciplina nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferpereira/nodejs_work_end.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "jwt",
+    "authentication",
+    "postgresql"
+  ],
+  "author": "Fernando M. Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferpereira/nodejs_work_end/issues"
+  },
+  "homepage": "https://github.com/ferpereira/nodejs_work_end#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^2.3.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "sequelize": "^6.25.5"
+  }
+}
